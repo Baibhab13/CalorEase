@@ -7,8 +7,8 @@ import retrofit2.http.POST
 
 interface NutritionixApi {
     @Headers(
-        "x-app-id: bfd30ef3",
-        "x-app-key: 5818f8bcd8660ea75abeec92d026427e",
+        "Your ID",
+        "x-app-key: Your API KEY",
         "Content-type: application/json"
     )
     @POST("v2/natural/nutrients")
